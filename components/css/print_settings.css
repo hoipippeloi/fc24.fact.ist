@@ -1,0 +1,14 @@
+@page {
+    size: 21cm 29.7cm; /* A4 size */
+    /* Set the margin for the print document */
+    margin-top: 2cm !important;
+    margin-bottom: 2cm !important;
+    margin-left: 1.2cm !important;
+    margin-right: 1.2cm !important;
+}
+
+@media print {
+    .print-hide {
+        display: none !important;
+    }
+}

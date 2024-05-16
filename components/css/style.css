@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,1000;1,6..12,400&display=swap');
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  overflow-y: scroll;
+}
+
+html {
+  font-size: 0.9em !important;
+}
+
+html.uk-modal-page {
+    margin-right: -17px !important;
+    overflow-y: scroll;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin:0;
+    padding:0;
+    line-height: 1.2;
+    margin-bottom:20px !important;
+}
+
+h1 {
+  font-size: 2.8em !important;
+  margin:10px 0;
+  font-weight: 900 !important;
+  color:#06A51A;
+}
+
+h2 {
+  font-size: 2em !important;
+  margin:5px 0;
+  font-weight: 800 !important;
+  color:#333 !important;
+}
+
+h3 {
+  font-size: 1.6em !important;
+  margin:5px 0;
+  font-weight: 700 !important;
+  color:#555 !important;
+}
+
+h4 {
+  font-size: 1.2em !important;
+  margin:10px 0;
+  font-weight: 700 !important;
+  color:#777;
+}
+
+p {
+    font-family: 'Inter', Verdana, sans-serif !important;
+    padding:2px;
+    margin:10px 0;
+}
+
+li {
+  font-size: 1em !important;
+}
+
+a.link {
+  color:#06871A !important;
+  text-decoration: none !important;
+  padding:0 3px;
+  font-weight: 500;
+}
+
+a.link:hover {
+  background-color: #eee;
+  text-decoration: none !important;
+  border-radius: 3px;
+}
+
+/* Layout styling */
+
+div.items-start {
+  border-bottom:1px solid #eee;
+  margin-bottom:0px;
+}
+
+div > main > article {
+  padding:30px 5px !important;
+}
+
+/* ##################################################### 
+  Evidence styling 
+##################################################### */
+
+div.search-container {
+  width:100% !important;
+  margin-bottom:30px !important;
+}
+
+div.button-group button:focus, div.button-group button:focus-within, div.button-group button.text-blue-700 {
+  background:#FE6C2D !important;
+  color:#fff;
+}
+
+/* Hide nav button Evidence */
+
+header > div > button > svg {
+  display: none !important;
+}
+
+div.text-xl span {
+  font-size:1.5em !important;
+  font-weight: 700 !important;
+  color: #1b251c;
+  margin-left:2px;
+}
+
+p.text-sm {
+  color:#8B998C;
+}
+
+svg g text {
+  fill: #8c978c !important;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 0.8em !important;
+  font-weight: 600;
+}

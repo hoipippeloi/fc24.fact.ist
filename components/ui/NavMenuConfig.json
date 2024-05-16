@@ -1,0 +1,13 @@
+[
+    {
+      "label":"apps",
+      "order": 1,
+      "show": true
+    },
+    {
+      "label":"data",
+      "order": 0,
+      "show": false
+    }
+  ]
+  
