@@ -166,7 +166,8 @@ limit 12
                 {pp.overall_rating}
             </span>
             <h3 class="uk-card-title">{pp.short_name}</h3>
-            <p><a class="link" href="/{pp.club_name}/">{pp.club_name}</a> / {pp.nationality_name}</p>
+            <!--<p><a class="link" href="/{pp.club_name}/">{pp.club_name}</a> / {pp.nationality_name}</p>-->
+            <p>{pp.club_name} / {pp.nationality_name}</p>
         </div>
     </div>
     {/each}
