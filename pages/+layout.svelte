@@ -15,13 +15,14 @@
 
 <svelte:head>
 	<title>fc24.fact.ist</title>
+	<script defer data-domain="fc24.fact.ist" src="https://plausible.io/js/script.js"></script>
 </svelte:head>
 
 <EvidenceDefaultLayout {data}
 	logo="/img/icon.png"
 	title='My App'
   	neverShowQueries=true
-  	githubRepo='https://github.com/hoipippeloi/tpl.fact.ist'
+  	githubRepo='https://github.com/hoipippeloi/fc24.fact.ist'
   	hideSidebar=true
   	fullWidth=true
   	maxWidth=1440
