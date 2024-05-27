@@ -30,7 +30,6 @@ select
     
 from ${recs} recs
 group by 1,2,3,4
-order by ${inputs.metric_select} desc
 limit 500
 ```
 
