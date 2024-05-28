@@ -86,7 +86,7 @@ limit 20
     </div>
 
     <div>
-        <h3>Players</h3>
+        <h3>Distribution of Players</h3>
         <div uk-tooltip="title: Hover over a dot for more info; pos: top-right">
             <ScatterPlot 
                 data={by_player}
